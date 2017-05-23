@@ -242,3 +242,19 @@ footer {
 .icons {
     height: 20px;
 }
+
+
+/*game*/
+
+.game {
+    background: black;
+    width: 86%;
+    height: 358px;
+    margin-left: 5%;
+    margin-top: -20%;
+    margin-right: -14%
+}
+
+.ocultar {
+    display: none;
+}
