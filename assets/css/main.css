@@ -8,6 +8,12 @@ Colors:
 */
 body {
     margin: 0;
+    padding: 0;
+    font-family: Raleway;
+}
+input{
+    border-style: none;
+    width: 100%;
 }
 
 /*Navbar*/
@@ -17,6 +23,7 @@ body {
     position: fixed;
     top: 0;
     width: 100%;
+    height: 12%;
 
 }
 .nav-bar img{
@@ -76,3 +83,24 @@ ul li a {
 
 }
 
+/*FORMULARIO*/
+
+.text {
+    position: fixed;
+    width: 391px;
+    right: 20px;
+    top: 119px;
+    bottom: 76px;
+    background: white;
+    color: black;
+    color: green;
+
+    
+}
+
+div .text{
+    padding:20px;
+}
+.formulario .phone{
+    border-bottom:  1px solid red;
+}
