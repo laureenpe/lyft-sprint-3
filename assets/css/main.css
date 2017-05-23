@@ -2,7 +2,7 @@
 Colors: 
 #E54E79; pink
 #E56385;
-#00B2A9;
+#00B2A9; green
 #75726C;
 #EDE9E2
 */
@@ -12,8 +12,10 @@ body {
     font-family: Raleway;
 }
 input{
+
     border-style: none;
     width: 100%;
+    border-bottom: 1px solid grey;
 }
 
 /*Navbar*/
@@ -24,6 +26,7 @@ input{
     top: 0;
     width: 100%;
     height: 12%;
+    z-index: 20;
 
 }
 .nav-bar img{
@@ -44,6 +47,7 @@ ul {
      bottom: 297px;
     position: fixed;
     top: 0px;
+    z-index: 21;
 }
 
 ul li {
@@ -61,6 +65,7 @@ ul li a {
     text-decoration: none;
     
 }
+
 
 /*logo*/
 
@@ -86,14 +91,13 @@ ul li a {
 /*FORMULARIO*/
 
 .text {
-    position: fixed;
+    position: absolute;
     width: 391px;
     right: 20px;
     top: 119px;
     bottom: 76px;
     background: white;
-    color: black;
-    color: green;
+    color: #00B2A9;
 
     
 }
@@ -101,6 +105,6 @@ ul li a {
 div .text{
     padding:20px;
 }
-.formulario .phone{
-    border-bottom:  1px solid red;
-}
+
+
+/*BUTTON*/
