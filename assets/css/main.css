@@ -10,6 +10,7 @@ body {
     margin: 0;
     padding: 0;
     font-family: Raleway;
+    background:#00B2A9; 
 }
 input{
 
@@ -82,7 +83,6 @@ ul li a {
 
 /*picture*/
  .picture img{
-    background-repeat: no-repeat;
     width: 100%;
    
 
@@ -92,19 +92,56 @@ ul li a {
 
 .text {
     position: absolute;
-    width: 391px;
-    right: 20px;
+        width: 285px;
+    right: 84px;
     top: 119px;
     bottom: 76px;
     background: white;
     color: #00B2A9;
-
     
 }
 
 div .text{
-    padding:20px;
+    padding:10px;
 }
 
 
 /*BUTTON*/
+.phone button{
+    background-color: #E56385;
+}
+/*second section*/
+.play h1{
+    text-align: center;
+    color: gray;
+    background: white;
+    padding: 10px;
+
+}
+
+.play{
+left: 20px;
+ width: 100%;
+ bottom: 20px;
+
+}
+
+.play .box{
+    margin: 20px 20px 20px 20px;
+}
+
+.box input{
+    width:110px;
+    border-style: solid;
+        border-bottom: 1px solid grey;
+
+}
+.box {
+    text-align: center;
+    padding: 50px;
+}
+.container{
+    background: black;
+    width:50%;
+        margin: 0 auto;
+}
