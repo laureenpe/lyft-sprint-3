@@ -1,14 +1,32 @@
 window.onload = function() { //este evento hace que cuando la pagina se cargue se llamen las funciones
+    document.getElementById("start").addEventListener("click", myFunction);//da click la segunda vez
+    document.getElementById("phone").addEventListener("click", phone);
+}
+
+
+function myFunction() {
+    var x = document.getElementById('dibujar');
+    if (x.style.display === 'none') {
+        x.style.display = 'block';
+    } else {
+        x.style.display = 'none';
+    }
+}
+
+function phone() {
+    alert("Thanks for signing up");
+
+}
+
+/*window.onload = function() { //este evento hace que cuando la pagina se cargue se llamen las funciones
     document.getElementById("start").addEventListener("click", ocultarLista);
     document.getElementById("box").addEventListener("click", mostrarCaja); //para interactuar los listeners
+    document.getElementById("dibujar").addEventListener()
     // document.getElementById("start").addEventListener("click", startGame);
 
 }
 
-function myFunction() {
-    alert("Thanks for signing up");
 
-}
 
 
 function mostrarCaja() {
@@ -22,13 +40,25 @@ function ocultarLista() {
 
 }
 
-/*Game
+
+var posX= document.getElementsByClassName("X");
+var posY= document.getElementsByClassName("Y");
+var game= document.getElementsByClassName("start");
+
+function block() {
+    document.getElementById("dibujar").style.display = "block";
+}
+
+
+/*
+Game
 var teclas = {
     UP: 38,
     DOWN: 40,
     LEFT: 37,
     RIGHT: 39
 };
+
 
 document.addEventListener("keydown", dibujarTeclado);
 var fondo = document.getElementById("dibujar");
@@ -70,3 +100,5 @@ function dibujarTeclado(evento) {
             break;
     }
 }*/
+
+
