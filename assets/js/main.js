@@ -13,6 +13,7 @@ function myFunction() {
     }
 }
 
+
 function phone() {
     alert("Thanks for signing up");
 
