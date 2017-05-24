@@ -61,7 +61,7 @@
         <h1>Play with Lyft</h1>
     </div>
     <div class="container">
-        <div class="box">
+        <div id="box" class="box">
             <input class="right" type="text" name="X" placeholder=" X Cordinate"><i class="fa fa-car" aria-hidden="true"></i>
             <input class="left" type="text" name="Y" placeholder="Y Cordinate"><i class="fa fa-car" aria-hidden="true" id="right-car"></i>
             <div class="bottom">
@@ -73,8 +73,16 @@
     <section>
         <section>
             <div class="game ocultar">
+                <canvas width="300" height="300" id="dibujar"></canvas>
 
             </div>
+
+            <!--FOoter
+            <div class="Auto">
+                <p>posicion_x</p>
+                <p>posicion_y</p>
+            </div>-->
+
         </section>
 
     </section>
@@ -84,7 +92,7 @@
         <div class="iconos">
             <h4>Sprint 3 Project</h4>
             <div class="icons">
-                <i class="fa fa-instagram" aria-hidden="true"></i>
+                <i id="delete" class="fa fa-instagram" aria-hidden="true"></i>
                 <i class="fa fa-twitter" aria-hidden="true"></i>
                 <i class="fa fa-linkedin" aria-hidden="true"></i>
 
